@@ -55,7 +55,7 @@ sethidden = hookfunction(getgenv().sethiddenproperty,function(i,p,v)
     end
 end)
 wait(0.5)
-loadstring(game:HttpGet("https://paste.ee/r/44w9x"))()
+loadstring(game:HttpGet("https://paste.ee/r/5ROrB"))()
 wait(1)
 
 
