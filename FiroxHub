@@ -213,6 +213,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ShownApe/VR-Scripts/m
                         }
                  )                 
 
+  tab2:button({
+    Name = "Copy 911 hats",
+    Callback = function()
+ setclipboard("4998547654,28171753,20372960,62234425,63690008,62724852,451220849")
+                            end,
+                        }
+                 )  
+
  tab2:button({
     Name = "Copy Plane hats",
     Callback = function()
