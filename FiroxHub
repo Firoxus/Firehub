@@ -1,4 +1,4 @@
-print("/$$   /$$             /$$     /$$   /$$           /$$      ")
+print(" /$$   /$$             /$$     /$$   /$$           /$$      ")
 print("| $$  | $$            | $$    | $$  | $$          | $$      ")
 print("| $$  | $$  /$$$$$$  /$$$$$$  | $$  | $$ /$$   /$$| $$$$$$$ ")
 print("| $$$$$$$$ |____  $$|_  $$_/  | $$$$$$$$| $$  | $$| $$__  $$")
@@ -13,9 +13,11 @@ print("|__/  |__/ \_______/   \___/  |__/  |__/ \______/ |_______/ ")
                                                            
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
-
 local gui = Library:create{
-    Theme = Library.Themes.Dark
+    Theme = Library.Themes.Dark,
+    Name = "FireHub",
+    Size = UDim2.fromOffset(678, 500),
+    Link = "firox.gq/FireHub"
 }
 
 local tab = gui:tab{
@@ -38,11 +40,6 @@ local tab3 = gui:tab{
     Name = "Credits"
 }
 
-
-local tab4 = gui:tab{
-    Icon = "rbxassetid://9617246027",
-    Name = "Tutorials"
-}
 
 tab:button({
     Name = "Hand",
@@ -375,34 +372,7 @@ tab3:button({
                             end,
                         }
                  ) 
-             
-tab3:button({
-    Name = "Dogpower owner - RepowerVr",
-    Callback = function()
- print("")
-                            end,
-                        }
-                 )   
+                
              
              
---// tab 4 
 
-tab4:button({
-    Name = "How do i acess the gui while in vr? - ↓",
-    Callback = function()
- print("")
-                            end,
-                        }
-                 )   
-             
-             
-tab4:button({
-    Name = "Press the right button on your controller while having it executed",
-    Callback = function()
- print("")
-                            end,
-                        }
-                 )   
-             
- 
-             
