@@ -17,7 +17,7 @@ local gui = Library:create{
     Theme = Library.Themes.Dark,
     Name = "FireHub",
     Size = UDim2.fromOffset(678, 500),
-    Link = "firox.gq/FireHub"
+    Link = "github.com/Firoxus/FireHub"
 }
 
 local tab = gui:tab{
